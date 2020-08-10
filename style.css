@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container{
+	width:1100px;
+	margin:0 auto;
+	background-color: white;
+}
+.header-content{
+	width:1100px;
+	margin:0 auto;
+}
+.footer-content{
+	width:1100px;
+	margin:0 auto;
+}
+header{
+	width:100%;
+	height:120px;
+	background-color: cyan;
+	opacity: 0.9;
+	position:fixed;
+    top:0;
+    z-index:10;
+}
+header h1{
+	font-size: 50px;
+	color: white;
+	float:left;
+	padding-left: 15px;
+}
+header p{
+	padding-left: 20px;
+}
+.fa-facebook-square{
+	float:right;
+	font-size: 40px;
+	padding:0 40px;
+	color: black;
+}
+main{
+	width:100%;
+	background-color: #dcdcdc;
+}
+.main-visual {
+	background-image: url(tokyo0720IMGL6884_TP_V.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.main-visual h1{
+	font-size: 200px;
+	text-align: center;
+	padding-top: 100px;
+	color: #ffa500;
+}
+.main-visual h3{
+	text-align: center;
+    font-size: 40px;
+    color:white;
+    padding-bottom: 30px;
+}
+.what{
+	background-image: url(名称未設定-10.jpg);
+	height:350px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	border-bottom: 1px solid black;
+}
+.what h1{
+	font-size: 60px;
+	padding-left: 5px;
+	padding-top: 30px;
+}
+.what p{
+	padding-top: 30px;
+	font-size: 26px;
+    padding-left: 20px;
+}
+span{
+	color:#8b0000;
+	font-size: 35px;
+}
+.jfb{
+	padding:50px 50px ;
+	background-color: #f5f5f5;
+	display: block;
+
+}
+.s-dis{
+	display: none;
+}
+.you-can{
+	background-color: black;
+	height:100px;
+}
+.can{
+	font-size: 70px;
+	color: white;
+	text-align: center;
+}
+.main-content{
+	padding:0 140px;
+}
+.business{
+	width:400px;
+	height:400px;
+	margin-right: 20px;
+	margin-bottom:20px;
+	background-image: url(名称未設定-7.jpg);
+	float:left;
+	border:1px solid black;
+}
+.zoom-meeting{
+	width:400px;
+	height:400px;
+	margin-bottom:20px;
+	background-image: url(名称未設定-5.jpg);
+	float:left;
+	border:1px solid black;
+}
+.party{
+	width:400px;
+	height:400px;
+	margin-right: 20px;
+	background-image: url(名称未設定-9.jpg);
+	float:left;
+	border:1px solid black;
+}
+.q_a{
+    width:400px;
+	height:400px;
+	background-image: url(名称未設定-8.jpg);
+	float:left;
+	border:1px solid black;
+}
+.finish{
+	width:80%;
+	margin:30px auto;
+	background-image: url(yamasha_eternal_2_TP_V.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.finish h1{
+	font-size: 90px;
+	text-align: center;
+}
+.finish h2{
+	font-size: 70px;
+	text-align: center;
+}
+footer{
+	width:100%;
+	height:120px;
+	background-color: cyan;
+	opacity: 0.4;
+}
+.f-h1{
+	text-align: center;
+}
+.f-p{
+	text-align: center;
+}
+@media screen and (max-width:1100px) {
+  .header-content{
+	width:370px;
+	}
+	.footer-content{
+		width:370px;
+	}
+  .container{
+  	width:370px;
+  }
+  header{
+  	height:80px;
+  }
+  header h1{
+  	font-size: 30px;
+  }
+  header p{
+  	font-size: 10px;
+  }
+  .fa-facebook-square{
+	padding:10px;
+	font-size: 25px;
+}
+  .main-visual h1{
+  	font-size: 70px;
+  	padding-top: 100px;
+  }
+  .main-visual h3{
+  	font-size: 15px;
+  }
+  .jfb{
+  	display: none;
+  }
+  .s-dis{
+  	display: block;
+  	padding:10px;
+  	background-color: white;
+  }
+  .you-can{
+  	height:50px;
+  }
+  .can{
+  	font-size: 30px;
+  }
+  .main-content{
+  	padding:0;
+  }
+
+  .business{
+    float:none;
+    margin-right: 0;
+    width:370px;
+  }
+  .zoom-meeting{
+  	float:none;
+  	width:370px;
+  }
+  .party{
+  	float:none;
+  	margin-right: 0;
+  	width:370px;
+  }
+  .q_a{
+  	float:none;
+  	width:370px;
+  }
+  .what{
+  	height:250px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	border-right: 1px solid black;
+	width:370px;
+	}
+	.what h1{
+		font-size: 30px;
+		padding-left: 5px;
+		padding-top: 15px;
+	}
+	.what p{
+		padding-top: 20px;
+		font-size: 17px;
+	    padding-left: 10px;
+	}
+	span{
+		color:#8b0000;
+		font-size: 23px;
+	}
+	.finish{
+	width:370px;
+	margin:10px auto;
+    }
+    .finish h1{
+	font-size: 75px;
+	text-align: center;
+	}
+	.finish h2{
+		font-size: 50px;
+		text-align: center;
+	}
+
+
+
+
+
+
+
+
+
+  }
